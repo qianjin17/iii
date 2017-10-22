@@ -24,6 +24,7 @@ $('#sList').on('click', '.showSkills', function() {
 			$('#'+ studentDetail._id).append($('<span>').addClass('tag').text(skillList[i]))
 		
 		}
+		
 
 	})
 
